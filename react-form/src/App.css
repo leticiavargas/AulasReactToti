@@ -1,3 +1,25 @@
 .App {
-  text-align: center;
+  
+}
+
+form {
+  margin: 50px 20px;
+}
+
+.formRow {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.formRow label {
+  padding-right: 10px;
+}
+
+li {
+  display: flex;
+}
+
+.modal {
+  z-index: 10;
+  position: relative;
 }

@@ -71,16 +71,6 @@
       "highlight": false
     },
     {
-      "id": 8,
-      "author": "Yanersys",
-      "title": "Bolo de Laranja",
-      "type": "bolos",
-      "image": "boloDeLaranja.jpg",
-      "favorite": 123,
-      "country": "",
-      "highlight": false
-    },
-    {
       "id": 9,
       "author": "Solangelis Hernandez",
       "title": "Bolo Três Leites",
@@ -248,16 +238,6 @@
       "image": "sanduicheDeFrango.jpg",
       "favorite": 123,
       "country": "Brasil",
-      "highlight": false
-    },
-    {
-      "id": 26,
-      "author": "Catia Manuel",
-      "title": "Sopa de Frango",
-      "type": "sopas",
-      "image": "sopaDeFrango.jpg",
-      "favorite": 123,
-      "country": "",
       "highlight": false
     }
   ]
