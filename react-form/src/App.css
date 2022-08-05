@@ -1,9 +1,9 @@
 .App {
-  
+  margin: 50px 20px;
 }
 
 form {
-  margin: 50px 20px;
+  
 }
 
 .formRow {
@@ -15,11 +15,52 @@ form {
   padding-right: 10px;
 }
 
-li {
-  display: flex;
+/*** Lista de receitas ****/
+.recipes-list h3 {
+  color:#580042;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.modal {
-  z-index: 10;
-  position: relative;
+.recipes-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipes-list li {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.recipes-list span {
+  width: 50%;
+}
+
+.recipes-list li button {
+  margin-left: 10px;
+}
+
+
+
+
+button {
+  background-color: purple;
+  color: white;
+  font-weight: 700;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  border-color: #580042;
+  background-color: #FFFFFF;
+  color: #580042;
 }
