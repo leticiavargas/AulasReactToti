@@ -1,0 +1,28 @@
+.recipesList {
+}
+
+.recipesList h1 {
+  color:#580042;
+  text-align: center;
+}
+
+.recipesList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipesList li {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.recipesList span {
+  width: 50%;
+}
+
+.recipesList li button {
+  margin-left: 10px;
+}

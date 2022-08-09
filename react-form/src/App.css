@@ -1,66 +1,87 @@
-.App {
-  margin: 50px 20px;
-}
-
-form {
-  
-}
-
-.formRow {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.formRow label {
-  padding-right: 10px;
-}
-
-/*** Lista de receitas ****/
-.recipes-list h3 {
-  color:#580042;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.recipes-list ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.recipes-list li {
-  display: flex;
-  height: 30px;
-  align-items: center;
-  padding-left: 10px;
-}
-
-.recipes-list span {
-  width: 50%;
-}
-
-.recipes-list li button {
-  margin-left: 10px;
-}
-
-
-
-
-button {
-  background-color: purple;
-  color: white;
-  font-weight: 700;
-  height: 20px;
-  border-radius: 5px;
-  border: 2px solid transparent;
-  line-height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-button:hover {
-  border-color: #580042;
-  background-color: #FFFFFF;
-  color: #580042;
-}
+body {
+  background-color: #580042;
+ }
+ 
+ a, :visited, :hover, :active {
+   text-decoration: inherit;
+   color: inherit;
+ }
+ 
+ ul {
+   list-style: none;
+ }
+ 
+ .container {
+   width: 780px;
+   margin-left: auto;
+   margin-right: auto;
+   border: #580042 solid 1px;
+   padding: 20px;
+   background-color: #fff;
+   box-sizing: border-box;
+ }
+ 
+ button {
+   background-color: #580042;
+   color: white;
+   font-weight: 700;
+   height: 24px;
+   border-radius: 5px;
+   border: 2px solid transparent;
+   line-height: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 12px;
+ }
+ 
+ button:hover {
+   border-color: #580042;
+   background-color: #FFFFFF;
+   color: #580042;
+ }
+ 
+ #upMenu {
+   height: 70px;
+   width: 780px;
+   background-color: #580042;
+   padding: 10px 0;
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ /** Up menu **/
+ #upMenu .containerMenu {
+   display: flex;
+   justify-content: end;
+   width: 100%;
+   align-items: center;
+ }
+ 
+ #upMenu .containerMenu img {
+   height: 30px;
+ }
+ 
+ #upMenu .containerMenu ul {
+   display: flex;
+   color: #FFFFFF;
+ }
+ 
+ #upMenu .containerMenu ul li {
+   padding: 0 10px;
+   cursor: pointer;
+ }
+ 
+ #upMenu .containerMenu ul li:hover {
+   text-decoration: underline 3px solid;
+   text-decoration-color: #4E9231;
+   opacity: 0.8;
+ }
+ 
+ #upMenu .containerMenu ul li:active {
+   text-decoration: underline wavy;
+   text-decoration-color: #1E6600;
+ }

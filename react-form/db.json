@@ -53,7 +53,7 @@
     {
       "id": 6,
       "author": "Tabitha Philistin Destin",
-      "title": "Bolo de Cenoura 2",
+      "title": "Carrot Cake",
       "type": 1,
       "image": "boloDeCenoura.jpg",
       "favorite": 123,
@@ -239,6 +239,12 @@
       "favorite": 123,
       "country": "Brasil",
       "highlight": false
+    },
+    {
+      "author": "Novo autor",
+      "title": "Nova receita",
+      "type": "6",
+      "id": 26
     }
   ],
   "types": [
